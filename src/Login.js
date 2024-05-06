@@ -1,7 +1,15 @@
 import React from "react";
 
 const Login = () => {
-  return <h1>Login Cemre</h1>;
+  return (
+    <div>
+      <div>Username</div>
+      <label id="username"></label>
+      <div>Password</div>
+      <label id="password"></label>
+      <button>Submit</button>
+    </div>
+  );
 };
 
 export default Login;
